@@ -33,11 +33,6 @@ body {
    text-align: center;
 }
 
-.img-logo {
-   display: flex;
-   align-items: center;
-}
-
 .header-link {
    display: flex;
    font-family: 'Montserrat';
@@ -569,6 +564,7 @@ body {
 }
 
 @media (max-width: 992px) {
+   .img-logo {display: flex;align-items: center;}
    .right-card {display: none;} 
    .image-left {display: flex;justify-content: center;}
    .image-left img{display: block;}
