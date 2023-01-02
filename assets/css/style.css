@@ -59,6 +59,11 @@ body {
    justify-content: center;
 }
 
+.letter-head {
+   font-size: 14px; 
+   color: #000;
+}
+
 .header-menu {
    display: flex;
    justify-content: center;
@@ -268,11 +273,11 @@ body {
 }
 
 .row-cols-two {
-  justify-content: center;
-  display: flex;
-  gap: 50px;
-  align-items: center;
-  padding-bottom: 130px;
+   justify-content: center;
+   display: flex;
+   gap: 50px;
+   align-items: center;
+   padding-bottom: 130px;
 }
 
 .item-category__image{
@@ -341,7 +346,7 @@ body {
 }
 
 .item-popular:hover .item-popular__image img{
-   transform: scale(1.1);
+   transform: scale(1.05);
    filter: brightness(0.9);
    transition-property: all;
    transition-duration: 0.5s;
@@ -459,6 +464,14 @@ body {
    transform: translate(0px, 120%);
    opacity: 0;
    transition: all 0.8s ease 0s;
+}
+
+.btn-inst {
+   text-decoration: none;
+   color: #fff;
+   gap: 5px;
+   display: flex;
+   align-items: center;
 }
 
 /*=====================================================Animation-text*/ 
@@ -658,4 +671,20 @@ body {
    .title-us {font-size: 45px;}
    .title-inst {font-size: 45px;}
    .title-header {font-size: 22px;}
+   .bg-left {padding: 40px 10px;}
+   .title-text {
+      font-size: 22px;
+   }
+}
+
+@media (max-width: 270px) {
+   .title-header {font-size: 19px;}
+   .text-header {font-size: 13px;}
+   .title {font-size: 37px;}
+   .title-inst {font-size: 37px;}
+   .text-link {font-size: 18px;}
+   .btn-about {font-size: 14px;}
+   .letter-head {font-size: 10px;}
+   .header-link {font-size: 14px;}
+   .burger-menu__nav {width: 9rem;}
 }
