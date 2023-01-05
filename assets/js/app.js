@@ -57,7 +57,7 @@ function burgerMenu(selector) {
             $('body').css('overflow', 'hidden');
         } else {
             $('body').css('overflow', 'visible');
-        }
+        } 
     }
 }
 
